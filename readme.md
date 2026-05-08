@@ -9,13 +9,12 @@ A basic real-time chat application built to demonstrate the mental model and mec
 - Clean frontend rendered with the **Jet Template Engine**.
 
 ## How to Run
-1. Make sure you are in the application root directory (`ws/`).
-2. Run the application:
+1. Run the application:
    ```bash
    go run ./cmd/web
    ```
-3. Open a browser and visit `http://localhost:8080/`.
-4. Open a second tab to the same URL, type a username in each, and start chatting to see the broadcast in action!
+2. Open a browser and visit `http://localhost:8080/`.
+3. Open a second tab to the same URL, type a username in each, and start chatting to see the broadcast in action!
 
 ## Tech Stack
 - **Go** (Standard HTTP library + Goroutines/Channels)
